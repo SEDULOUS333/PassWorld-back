@@ -8,7 +8,7 @@ dotenv.config()
 
 
 // Connecting to the MongoDB Client
-const url = process.env.MONGO_URI;
+const url = process.env.MONGODB_URI;
 const client = new MongoClient(url);
 client.connect();
 
